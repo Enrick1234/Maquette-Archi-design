@@ -1,0 +1,61 @@
+footer {
+    height: 125px;
+    margin-top: 60px;
+    background-color: rgb(0,116,141);
+}
+.logoReseau {
+    display: flex;
+    justify-content: space-around;
+}
+.logoReseau p {
+    color: white;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-left: 8px;
+}
+.reseaux {
+    width: 180px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer .logo {
+    margin-top: 23px;
+    width: 500px;
+}
+.graduationBas {
+    height: 9px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.147);
+    margin-top: 11px;
+    background-image: url(/instructions/images/path.png);
+}
+footer i {
+    color: white;
+}
+
+@media (max-width: 750px) {
+    footer {
+        height: 210px;
+    }
+    footer .logoReseau {
+        flex-wrap: wrap-reverse;
+    }
+    footer .logo {
+        flex-wrap: wrap;
+        margin-top: 8px;
+    }
+    footer .logo p {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    footer .reseaux {
+        margin-top: 30px;
+    }
+    footer img {
+        margin: 0 auto;
+    }
+}
+
